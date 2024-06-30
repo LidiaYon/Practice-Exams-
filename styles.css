@@ -124,3 +124,9 @@ li {
         font-size: 1.5rem;
     }
 }
+
+#timer, #lockdown-counter {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
