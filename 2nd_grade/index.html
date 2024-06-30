@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidia's Tutoring Practice Exam</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Lidia's Tutoring Practice Exam</h1>
+    </header>
+    <main>
+        <div id="login-container" class="container">
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="exam-container" class="container hidden">
+            <form id="exam-form"></form>
+        </div>
+        <div id="result-container" class="container hidden">
+            <div id="score"></div>
+            <button id="restart-btn">Restart</button>
+        </div>
+        <div id="retry-container" class="container hidden">
+            <button id="retry-btn">Retry Incorrect Questions</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
