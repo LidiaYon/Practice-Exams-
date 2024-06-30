@@ -2,7 +2,6 @@
 const users = [
     { username: "sid", password: "765432" },
     { username: "arnav", password: "765432" }
-    { username: "Ysabella", password: "765432" }
 ];
 
 const examForm = document.getElementById('exam-form');
