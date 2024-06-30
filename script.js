@@ -1,7 +1,7 @@
 // Simulated user credentials (replace with actual authentication logic)
 const users = [
     { username: "sid", password: "765432" },
-    { username: "arnav", password: "765432" }
+    { username: "arnav", password: "765432" }, 
 ];
 
 const examForm = document.getElementById('exam-form');
@@ -200,7 +200,9 @@ loginForm.addEventListener('submit', function(event) {
         loginContainer.classList.add('hidden');
         examContainer.classList.remove('hidden');
         generateQuestions(questions);
-    } else {
+    } 
+    
+    else {
         alert("Invalid username or password. Please try again.");
     }
 });
